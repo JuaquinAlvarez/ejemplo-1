@@ -1,0 +1,146 @@
+*{
+    margin: 5px;
+    padding: 5px;
+}
+body {
+    width: 850px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: aliceblue;
+}
+
+.navbar {
+    background-color: lightgray;
+    color: #fff;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    position: relative;
+    left: 50PX;
+    width: 1700px;
+    justify-content: space-around;
+    justify-content: flex-start;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    display: flex;
+    padding: 20px;
+    align-items:center;
+    justify-content: flex-start;
+    
+}
+#but{
+    display: flex;
+    position: relative;
+    left: 1350px;
+    top: -12px;
+    background-color: cyan;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    height: 50px;
+    cursor: pointer;
+    align-items: center;
+
+}
+#but:hover{
+    color: white;
+}
+li{
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 150px;
+}
+.te{
+    margin-top: 10px;
+    display: flex;
+    width: 1000px;
+}
+.c2{
+    background-color: white;
+    border-color: black;
+    border-radius: 5px;
+    display: flex;
+    position: relative;
+    margin: 50px;
+    height:350px;
+    width: 1100px;
+    flex-direction: column;
+    border:2px solid black;
+}
+.c2 h2, h4, p {
+    position: relative;
+    left: 25px;
+}
+.g1{
+    display: flex;
+    width:100px ;
+    position:relative; 
+    left: 25px;
+    border-radius: 5px;
+    background-color:lightyellow;
+    cursor: pointer;
+}
+.g1:hover{
+    color: lightskyblue;
+}
+.c3{
+    background-color: white;
+    border-color: black;
+    border-radius: 5px;
+    display: flex;
+    position: relative;
+    margin: 50px;
+    width: 1100px;
+    height:350px;
+    flex-direction: column;
+    border:2px solid black;
+}
+.g2{
+    display: flex;
+    width:100px ;
+    position:relative; 
+    left: 25px;
+    border-radius: 5px;
+    background-color:lightyellow;
+    cursor: pointer;
+}
+.g2:hover{
+    color: lightskyblue;
+}
+.c3 h2, h4, p {
+    position: relative;
+    left: 25px;
+}
+.c4{
+    background-color: white;
+    border-color: black;
+    border-radius: 5px;
+    display: flex;
+    position: absolute;
+    left: 1200px;
+    top: 112px;
+    bottom: 422px;
+    margin: 50px;
+    width: 500px;
+    height:200px;
+    flex-direction: column;
+    border:2px solid black;
+}
+#g3{
+    cursor: pointer;
+    display: flex;
+    width:200px ;
+    height: 50px;
+    position:relative; 
+    color: white;
+    left: 25px;
+    background-color:green;
+    font-size: 16px;
+}
+#g3:hover{
+    color: lightskyblue;
+}

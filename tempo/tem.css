@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    margin: 0;
+}
+.nav{
+    background-color: rgb(0, 153, 255);
+    padding: 12px;
+    text-align: center;
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 35vw;
+    margin-right: 35vw;
+    position: relative;
+    padding: 0.5vw;
+}
+.nav h1{
+    display: flex;
+    justify-content: center;
+}
+.nav p {
+    display: flex;
+    justify-content: center;
+}
+.condi{
+    display: flex;
+    justify-content: center;
+    justify-content:space-evenly;
+}
+.tit{
+    display: flex;
+    justify-content: center;
+}
+.di1{
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 250px;
+}
+.di2{
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 250px;
+}
+.di3{
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 250px;
+}
+.di4{
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 250px;
+}
+.di5{
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 250px;
+}
